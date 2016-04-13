@@ -45,6 +45,7 @@ library('RColorBrewer')
 # quartz.options(width = 8.33333333333333, height = 5.55555555555556, dpi = 72)
 
 # For windows, uncomment below line (and comment out above line)
+windowsFonts(Arial=windowsFont("Arial"))
 windows.options(width = 8.33333333333333, height = 5.55555555555556)
 
 #################### redefine default ggplot theme ###################
